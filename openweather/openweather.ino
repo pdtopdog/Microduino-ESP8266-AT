@@ -43,7 +43,7 @@ void loop()
   Serial1.println(cmd);
   Serial.println(cmd);  
   if(Serial1.find("Error")) return;  
-  cmd = "GET /data/2.5/forecast/city?id=1798524&APPID=**********apikey************ \r\n";    
+  cmd = "GET /data/2.5/forecast/city?id=1798524&APPID=**********apikey************ \r\n";   //this is pudong id,ohter see  http://bulk.openweathermap.org/sample/ city.list.json
   Serial1.print("AT+CIPSEND=");
   Serial1.println(cmd.length());
   if(Serial1.find(">")){
