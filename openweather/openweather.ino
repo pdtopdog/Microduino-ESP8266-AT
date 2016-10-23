@@ -6,7 +6,7 @@ U8GLIB_SSD1306_128X64 u8g(U8G_I2C_OPT_NONE);
 
 #define SSID "your ssid" 
 #define PASS "your password" 
-#define DST_IP "128.199.162.170" //api.openweathermap.org 's IP Address
+#define DST_IP "139.59.9.23" //api.openweathermap.org 's IP Address
   
 void setup()
 {     
